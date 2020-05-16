@@ -147,7 +147,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Event.cpp" />
     <ClCompile Include="FinalProject.cpp" />
+    <ClCompile Include="GlobalFunctions.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Event.h" />
+    <ClInclude Include="GlobalFunctionDefinitions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

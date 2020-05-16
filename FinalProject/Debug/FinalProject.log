@@ -1,2 +1,5 @@
-﻿  FinalProject.cpp
+﻿  Event.cpp
+  FinalProject.cpp
+U:\Documents\GitHub\FinalProject\FinalProject\FinalProject.cpp(26,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
   FinalProject.vcxproj -> U:\Documents\GitHub\FinalProject\FinalProject\Debug\FinalProject.exe
