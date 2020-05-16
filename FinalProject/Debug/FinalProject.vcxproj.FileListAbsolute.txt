@@ -1,0 +1,2 @@
+U:\Documents\GitHub\FinalProject\FinalProject\Debug\FinalProject.exe
+U:\Documents\GitHub\FinalProject\FinalProject\Debug\FinalProject.pdb
