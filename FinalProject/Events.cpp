@@ -351,18 +351,18 @@ void myEvent4(Character& Hero, Character& Enemy) {
 
     if (choice == "Follow") {
         cout << "You have decided to Follow this fox..." << endl;
-        cout << "You see the red fox running away from you as if something is trying to get its attention...";
+        cout << "You see the red fox running away from you as if something is trying to get its attention...\n";
         Sleep(2000);
         cout << "as you follow the fox you can smell something putrid in the distance\n";
         Sleep(2000);
-        cout << "you take a whiff of the smell... youre body cant handle the intenst smell";
+        cout << "you take a whiff of the smell... youre body cant handle the intenst smell\n";
         cout << "you throw up life points as if you were in a video game\n";
-        cout << " a diplay bar magicly pop up saying Heros health is now ....";
+        cout << " a display bar magicly pop up saying Heros health is now .... \n";
         Sleep(2000);
         Hero.damageHealth(Enemy.getAttack());
         cout << Hero.getHealth();
-        cout << "you make fun of the display of your health saying if i am actual in a game would i be able to do this...";
-        cout << "choose what finger to bite off type index or middle ";
+        cout << "\nyou make fun of the display of your health saying if i am actual in a game would i be able to do this...\n";
+        cout << "choose what finger to bite off type index or middle \n";
 
         cin >> choice;
 
@@ -372,8 +372,8 @@ void myEvent4(Character& Hero, Character& Enemy) {
             cout << "you bit of your index finger that attracted the red fox back towards you\n";
             Sleep(2000);
             cout << "the red fox comes towards you and takes sneak attack at your index finger\n ";
-            cout << "he runs off with your index finger!!!!!!!";
-            cout << "do you chose to chase after it type yes or no";
+            cout << "he runs off with your index finger!!!!!!!\n";
+            cout << "do you chose to chase after it type yes or no\n";
             cin >> choice;
 
             if (choice == "yes") {
@@ -388,7 +388,7 @@ void myEvent4(Character& Hero, Character& Enemy) {
                 Sleep(2000);
                 cout << " you ran back home to find your keys for your car\n";
                 cout << "when you suddelny woke up from this werid dream you had\n";
-                cout << "you question if it was even real as you wake up from your bed";
+                cout << "you question if it was even real as you wake up from your bed\n";
             }
 
 
@@ -404,7 +404,7 @@ void myEvent4(Character& Hero, Character& Enemy) {
                 Sleep(2000);
                 cout << "the bird starts feeding its babies with your finger\n";
                 cout << "do you choose to attack the nest or just leave it alone\n";
-                cout << "type attack or leave it";
+                cout << "type attack or leave it\n";
                 cin >> choice;
 
                 if (choice == "attack") {
@@ -412,7 +412,7 @@ void myEvent4(Character& Hero, Character& Enemy) {
                     Sleep(2000);
                     cout << " all of the birds in the forest came and attacked you\n";
                     Sleep(2000);
-                    cout << "you were knocked out and woke up in your bed";
+                    cout << "you were knocked out and woke up in your bed\n";
                     Sleep(2000);
                 }
 
@@ -421,7 +421,7 @@ void myEvent4(Character& Hero, Character& Enemy) {
                     Sleep(2000);
                     cout << "as you were walking home you get hit in the head with a nut\n ";
                     Sleep(2000);
-                    cout << "it wasnt a NUT it was your finger you ran back home trying to sitch it up ";
+                    cout << "it wasnt a NUT it was your finger you ran back home trying to sitch it up \n";
                 }
             }
 
@@ -430,7 +430,7 @@ void myEvent4(Character& Hero, Character& Enemy) {
 
     }
     else if (choice == "Ignore") {
-        cout << "you chose to ignore the fox...";
+        cout << "you chose to ignore the fox...\n";
         Sleep(2000);
         cout << "on your way back from walking into the forest \n";
         Sleep(2000);
@@ -447,15 +447,15 @@ void myEvent4(Character& Hero, Character& Enemy) {
             Sleep(2000);
             cout << "you noticed the leaves of all trees start falling \n";
             Sleep(2000);
-            cout << "you feel a type of precnese near you as if its breath down your neck";
-            cout << " do you chose to turn around and look?";
+            cout << "you feel a type of precnese near you as if its breath down your neck\n";
+            cout << " do you chose to turn around and look?\n";
             cout << " type yes or no \n";
             cin >> choice;
 
             if (choice == "yes") {
                 cout << " you build enough courage to go ahead and look into at whats behind you \n";
                 Sleep(2000);
-                cout << "you turn around and are in SHOCK.....";
+                cout << "you turn around and are in SHOCK.....\n";
                 Sleep(2000);
                 cout << "you see the same fox from the beganing of the adventure \n";
                 cout << " you looked unimpreessed from the fox\n";
@@ -467,7 +467,7 @@ void myEvent4(Character& Hero, Character& Enemy) {
             else if (choice == "no") {
                 cout << " you chose to ignore the preacne and run for your dear life!!! \n";
                 Sleep(2000);
-                cout << "The eninity behind you only seem ti get bigger.....";
+                cout << "The eninity behind you only seem ti get bigger.....\n";
                 Sleep(2000);
                 cout << "you kept on RUNNING for your dear life and wonder what could it even be behind you\n";
                 Sleep(2000);
@@ -490,33 +490,31 @@ void myEvent4(Character& Hero, Character& Enemy) {
             cout << "you ignore the voices again as they dont spark intrest in you \n";
             Sleep(2000);
             cout << "the voices attempted again to get your atention by grabbing you by the hand\n";
-            cout << "do you chose to ignore the voices or look into them";
-            cout << "type ignore or look";
+            cout << "do you chose to ignore the voices or look into them\n";
+            cout << "type ignore or look\n";
             cin >> choice;
             if (choice == "ignore") {
-                cout << "you ingored the voices";
+                cout << "you ingored the voices\n";
                 Sleep(2000);
-                cout << "That wasnt the best choice to choose...";
+                cout << "That wasnt the best choice to choose...\n";
                 Sleep(2000);
-                cout << "the voices have been angered they attacked you to death";
+                cout << "the voices have been angered they attacked you to death\n";
                 cout << "you woke up in the hostpial wondering if it was a dream\n";
             }
             else if (choice == "look") {
-                cout << "you chose to look into the voices...";
+                cout << "you chose to look into the voices...\n";
                 Sleep(2000);
-                cout << " you acepted the voices that are within the trails...";
+                cout << " you acepted the voices that are within the trails...\n";
                 Sleep(2000);
-                cout << "as you turned around it was only just a old lady that had gotten lost in the forest with you";
+                cout << "as you turned around it was only just a old lady that had gotten lost in the forest with you\n";
                 cout << "the old lady asked you if you were lost you asked for dierctions\n";
                 Sleep(2000);
-                cout << "you thank the lady for showing you the way out but a feeling in your gut says other wise until you home...";
+                cout << "you thank the lady for showing you the way out but a feeling in your gut says other wise until you home...\n";
             }
 
         }
 
 
     }
-
-
 
 }

@@ -1,4 +1,4 @@
 U:\Documents\GitHub\FinalProject\FinalProject\Debug\FinalProject.exe
 U:\Documents\GitHub\FinalProject\FinalProject\Debug\FinalProject.pdb
-C:\Users\Trick\Source\Repos\Compsci-Group-13\FinalProject\FinalProject\Debug\FinalProject.exe
-C:\Users\Trick\Source\Repos\Compsci-Group-13\FinalProject\FinalProject\Debug\FinalProject.pdb
+C:\Users\Trick\source\repos\Compsci-Group-13\FinalProject\FinalProject\Debug\FinalProject.exe
+C:\Users\Trick\source\repos\Compsci-Group-13\FinalProject\FinalProject\Debug\FinalProject.pdb
