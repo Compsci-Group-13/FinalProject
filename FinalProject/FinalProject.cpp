@@ -15,6 +15,7 @@
 #include "GlobalFunctionDefinitions.h"
 #include "EventDefinitions.h"
 #include "Character.h"
+#include "StateMachine.h"
 
 using namespace std;
 
@@ -31,7 +32,7 @@ int main()
     const int VECOR_SIZE = 4;
     vector<string> eventVector(VECOR_SIZE);
     int randEvent;
-
+    int dayNumber = 0;
     eventVector.at(0) = "My Event 1";
     eventVector.at(1) = "My Event 2";
     eventVector.at(2) = "My Event 3";
@@ -50,15 +51,23 @@ int main()
     Enemy.setAttack(2);
     Enemy.setStamina(1);
 
-    cout << "These are completely random events in a random kids life\n";
-    Sleep(2000);
-    cout << "Its all for fun....." << endl;
-    Sleep(2000);
+
     
     randEvent = EventPicker(eventVector);
 
     //Now this is where you add the switch statement using randEvent variable
+    
+    MainMenu();
 
+    do
+    {
+        WakeUp();
+
+        EndOfTheDay();
+
+        EndOfTheDay();
+        dayNumber++;
+    } while (dayNumber <= VECOR_SIZE); // needs the name of the vectored list for the events.
 
     return 0;
 }
