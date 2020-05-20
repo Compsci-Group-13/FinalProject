@@ -1,5 +1,4 @@
-﻿  Event.cpp
-  FinalProject.cpp
-U:\Documents\GitHub\FinalProject\FinalProject\FinalProject.cpp(26,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Generating Code...
+﻿  Events.cpp
+U:\Documents\GitHub\FinalProject\FinalProject\Events.cpp(339,9): warning C4101: 'x': unreferenced local variable
+U:\Documents\GitHub\FinalProject\FinalProject\Events.cpp(338,9): warning C4101: 'guess': unreferenced local variable
   FinalProject.vcxproj -> U:\Documents\GitHub\FinalProject\FinalProject\Debug\FinalProject.exe
