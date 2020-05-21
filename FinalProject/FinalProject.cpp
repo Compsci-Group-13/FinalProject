@@ -1,5 +1,5 @@
-//File: OOP2.cpp
-//Names: 
+//File: FinalProject.cpp
+//Names: Chelsea Nava, Juan Lopez, Sedrick Webb, William Becerra
 //Date: 05/15/2020
 //Course: CompSci 1
 //Description: This program will be a game
@@ -16,7 +16,6 @@
 #include "EventDefinitions.h"
 #include "Character.h"
 
-
 using namespace std;
 
 //Prototype functions
@@ -24,22 +23,26 @@ int EventPicker(const vector<int>& EventIndexes);
 int EventPicker(const vector<string>& EventNames);
 
 //GameFunctions
-void MainMenu();
+void MainMenu(Character& Herko, Character&Enemy);
 void WakeUp();
-void DailyEvent(int choice);
+void DailyEvent(int choice, Character& Hero, Character& Enemy);
 void EndOfTheDay();
 
-//define characters
-Character Hero;
-Character Enemy;
+
 
 int main()
 {
+ 
+    //define characters
+    Character Hero(15, 5, 10);
+    Character Enemy(20, 2, 1);
+
     const int VECTOR_SIZE = 4;                  //Initialize vector size
     vector<string> eventVector(VECTOR_SIZE);    //Vector to store events
     int randEvent;                              //index for event chosen at random
     int dayNumber = 0;                          //keep track of day
     
+    //populate vector with events
     eventVector.at(0) = "My Event 1";
     eventVector.at(1) = "My Event 2";
     eventVector.at(2) = "My Event 3";
@@ -63,13 +66,13 @@ int main()
 
     //Now this is where you add the switch statement using randEvent variable
 
-    MainMenu();
+    MainMenu(Hero, Enemy);
 
     do
     {
         WakeUp();
 
-        DailyEvent(randEvent);
+        DailyEvent(randEvent, Hero, Enemy);
 
         EndOfTheDay();
         cout << endl << endl;
@@ -94,7 +97,7 @@ int EventPicker(const vector<string>& EventNames) {
 }
 
 
-void MainMenu()
+void MainMenu(Character& Hero, Character& Enemy)
 {
     bool hasStarted = false;
     char start;
@@ -116,8 +119,8 @@ void MainMenu()
         }
         else
         {
-            std::cout << "\nWaiting to start... Press 'y' to start.\n";
-            std::cin >> start;
+            cout << "\nWaiting to start... Press 'y' to start.\n";
+            cin >> start;
         }
     } while (hasStarted == false);
 
@@ -135,7 +138,7 @@ void WakeUp()
     cout << "Let's get out there for the day.";
     return;
 }
-void DailyEvent(int choice)
+void DailyEvent(int choice, Character& Hero, Character& Enemy)
 {
     cout << endl << choice << endl;
     switch (choice)

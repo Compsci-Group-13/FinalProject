@@ -1,1 +1,3 @@
-﻿  FinalProject.vcxproj -> U:\Documents\GitHub\FinalProject\FinalProject\Debug\FinalProject.exe
+﻿  FinalProject.cpp
+U:\Documents\GitHub\FinalProject\FinalProject\FinalProject.cpp(117,13): warning C4552: '!': result of expression not used
+  FinalProject.vcxproj -> U:\Documents\GitHub\FinalProject\FinalProject\Debug\FinalProject.exe
