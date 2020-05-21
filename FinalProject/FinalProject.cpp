@@ -47,7 +47,8 @@ int main()
     eventVector.at(3) = "My Event 4";
 
     //seed rand
-    //srand(time(0)); moved  to global function so that it is a new seed every time it is called.
+    srand(time(0)); //moved  to global function so that it is a new seed every time it is called.
+    //actually that didn't seem to work, so i'm keeping it here
 
     /*
     //Set up Hero
@@ -61,9 +62,6 @@ int main()
     Enemy.setStamina(1);
     */
 
-    //grab random index from events vector
-    randEvent = EventPicker(eventVector);
-
     //Now this is where you add the switch statement using randEvent variable
 
     MainMenu(Hero, Enemy);
@@ -71,6 +69,9 @@ int main()
     do
     {
         WakeUp();
+
+        //grab random index from events vector
+        randEvent = EventPicker(eventVector);
 
         DailyEvent(randEvent, Hero, Enemy);
 

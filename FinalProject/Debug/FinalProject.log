@@ -1,4 +1,4 @@
 ﻿  FinalProject.cpp
-U:\Documents\GitHub\FinalProject\FinalProject\FinalProject.cpp(117,13): warning C4552: '!': result of expression not used
-  LINK : U:\Documents\GitHub\FinalProject\FinalProject\Debug\FinalProject.exe not found or not built by the last incremental link; performing full link
+U:\Documents\GitHub\FinalProject\FinalProject\FinalProject.cpp(50,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+U:\Documents\GitHub\FinalProject\FinalProject\FinalProject.cpp(118,13): warning C4552: '!': result of expression not used
   FinalProject.vcxproj -> U:\Documents\GitHub\FinalProject\FinalProject\Debug\FinalProject.exe
