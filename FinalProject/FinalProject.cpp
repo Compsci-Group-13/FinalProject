@@ -29,12 +29,15 @@ void WakeUp();
 void DailyEvent(int choice);
 void EndOfTheDay();
 
-//define characters
-Character Hero;
-Character Enemy;
+
+
 
 int main()
 {
+    //define characters
+    Character Hero(15, 5, 10);
+    Character Enemy(20, 2, 1);
+
     const int VECOR_SIZE = 4;
     vector<string> eventVector(VECOR_SIZE);
     int randEvent;
@@ -48,18 +51,7 @@ int main()
     //seed rand
     //srand(time(0)); moved  to global function so that it is a new seed every time it is called.
 
-    //Set up Hero
-    Hero.setHealth(15);
-    Hero.setAttack(5);
-    Hero.setStamina(10);
-
-    //Set up Enemy
-    Enemy.setHealth(20);
-    Enemy.setAttack(2);
-    Enemy.setStamina(1);
-
-
-    
+   
     randEvent = EventPicker(eventVector);
 
     //Now this is where you add the switch statement using randEvent variable
@@ -69,9 +61,7 @@ int main()
     do
     {
         WakeUp();
-
         DailyEvent(randEvent);
-
         EndOfTheDay();
         cout << endl << endl;
         dayNumber++;
@@ -112,7 +102,7 @@ void MainMenu()
     do {
         if (start == 'y')
         {
-            !hasStarted;
+            hasStarted = !hasStarted;
             return;
         }
         else
@@ -138,12 +128,13 @@ void WakeUp()
 }
 void DailyEvent(int choice)
 {
-    cout << endl << choice << endl;
+   
+
     switch (choice)
     {
     case 1:
         {
-        myEvent1(Hero, Enemy);
+        myEvent1(Character::Hero, Character::Enemy);
         break;
         }
     case 2:

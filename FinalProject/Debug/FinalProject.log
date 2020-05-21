@@ -1,4 +1,7 @@
-﻿  Events.cpp
-U:\Documents\GitHub\FinalProject\FinalProject\Events.cpp(339,9): warning C4101: 'x': unreferenced local variable
-U:\Documents\GitHub\FinalProject\FinalProject\Events.cpp(338,9): warning C4101: 'guess': unreferenced local variable
-  FinalProject.vcxproj -> U:\Documents\GitHub\FinalProject\FinalProject\Debug\FinalProject.exe
+﻿  FinalProject.cpp
+C:\Users\Trick\source\repos\Compsci-Group-13\FinalProject\FinalProject\FinalProject.cpp(147,18): error C2065: 'Hero': undeclared identifier
+C:\Users\Trick\source\repos\Compsci-Group-13\FinalProject\FinalProject\FinalProject.cpp(147,24): error C2065: 'Enemy': undeclared identifier
+C:\Users\Trick\source\repos\Compsci-Group-13\FinalProject\FinalProject\FinalProject.cpp(157,18): error C2065: 'Hero': undeclared identifier
+C:\Users\Trick\source\repos\Compsci-Group-13\FinalProject\FinalProject\FinalProject.cpp(157,24): error C2065: 'Enemy': undeclared identifier
+C:\Users\Trick\source\repos\Compsci-Group-13\FinalProject\FinalProject\FinalProject.cpp(162,18): error C2065: 'Hero': undeclared identifier
+C:\Users\Trick\source\repos\Compsci-Group-13\FinalProject\FinalProject\FinalProject.cpp(162,24): error C2065: 'Enemy': undeclared identifier

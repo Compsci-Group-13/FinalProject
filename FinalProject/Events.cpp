@@ -335,8 +335,6 @@ void myEvent3(Character& Hero, Character& Enemy) {
 
 void myEvent4(Character& Hero, Character& Enemy) {
     string choice;
-    int guess;
-    int x;
 
     cout << "you have woken up from a stange dream....\n";
     Sleep(2000);
