@@ -1,4 +1,1 @@
-﻿  Events.cpp
-U:\Documents\GitHub\FinalProject\FinalProject\Events.cpp(339,9): warning C4101: 'x': unreferenced local variable
-U:\Documents\GitHub\FinalProject\FinalProject\Events.cpp(338,9): warning C4101: 'guess': unreferenced local variable
-  FinalProject.vcxproj -> U:\Documents\GitHub\FinalProject\FinalProject\Debug\FinalProject.exe
+﻿  FinalProject.vcxproj -> U:\Documents\GitHub\FinalProject\FinalProject\Debug\FinalProject.exe

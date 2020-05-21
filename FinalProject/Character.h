@@ -4,7 +4,6 @@ private:             // Access specifier
     int health;        // Attribute (int variable)
     int attack;// Attribute (string variable)
     int stamina;
-    int vomit;
     
 public:
     int getHealth() const;
@@ -17,4 +16,7 @@ public:
     void healHealth(int heal);
     void reduceStamina(int amount);
     void increaseStamina(int amount);
+
+    Character();    //default constructor
+    Character(int initHealth, int initAttack, int initStamina);
 };

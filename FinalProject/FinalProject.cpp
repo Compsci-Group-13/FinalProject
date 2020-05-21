@@ -35,10 +35,11 @@ Character Enemy;
 
 int main()
 {
-    const int VECOR_SIZE = 4;
-    vector<string> eventVector(VECOR_SIZE);
-    int randEvent;
-    int dayNumber = 0;
+    const int VECTOR_SIZE = 4;                  //Initialize vector size
+    vector<string> eventVector(VECTOR_SIZE);    //Vector to store events
+    int randEvent;                              //index for event chosen at random
+    int dayNumber = 0;                          //keep track of day
+    
     eventVector.at(0) = "My Event 1";
     eventVector.at(1) = "My Event 2";
     eventVector.at(2) = "My Event 3";
@@ -57,8 +58,7 @@ int main()
     Enemy.setAttack(2);
     Enemy.setStamina(1);
 
-
-    
+    //grab random index from events vector
     randEvent = EventPicker(eventVector);
 
     //Now this is where you add the switch statement using randEvent variable
@@ -74,7 +74,7 @@ int main()
         EndOfTheDay();
         cout << endl << endl;
         dayNumber++;
-    } while (dayNumber < VECOR_SIZE);
+    } while (dayNumber < VECTOR_SIZE);
 
     return 0;
 }
@@ -99,14 +99,14 @@ void MainMenu()
     bool hasStarted = false;
     char start;
 
-    std::cout << "   Welcome to" << "\n  Adventure Day\n\n";
-    std::cout << "These are completely random events in a random kids life\n";
+    cout << "   Welcome to" << "\n  Adventure Day\n\n";
+    cout << "These are completely random events in a random kids life\n";
     Sleep(2000);
-    std::cout << "Its all for fun.....\n";
+    cout << "Its all for fun.....\n";
     Sleep(2000);
 
-    std::cout << "Press 'y' to start.\n";
-    std::cin >> start;
+    cout << "Press 'y' to start.\n";
+    cin >> start;
 
     do {
         if (start == 'y')
@@ -124,15 +124,15 @@ void MainMenu()
 }
 void WakeUp()
 {
-    std::cout << "*Alarm rings*\n";
-    std::cout << "*YAWNS*'Another day. Another adventure.'\n";
-    std::cout << "'Let's get ready for the day.' \n";
-    std::cout << "* ";
+    cout << "*Alarm rings*\n";
+    cout << "*YAWNS*'Another day. Another adventure.'\n";
+    cout << "'Let's get ready for the day.' \n";
+    cout << "* ";
     Sleep(2);
-    std::cout << "* ";
+    cout << "* ";
     Sleep(2);
-    std::cout << "*\n";
-    std::cout << "Let's get out there for the day.";
+    cout << "*\n";
+    cout << "Let's get out there for the day.";
     return;
 }
 void DailyEvent(int choice)
@@ -168,10 +168,10 @@ void DailyEvent(int choice)
 }
 void EndOfTheDay() //text that plays after the end of the days event
 {
-    std::cout << "\nYou walk in and shut the door behind you.\n";
-    std::cout << "'I am beat. Have I eaten today?' \n";
-    std::cout << " It's okay, I will just shut my eyes for a . . .\n";
+    cout << "\nYou walk in and shut the door behind you.\n";
+    cout << "'I am beat. Have I eaten today?' \n";
+    cout << " It's okay, I will just shut my eyes for a . . .\n";
     Sleep(2);
-    std::cout << " zzzZZZZ\n";
+    cout << " zzzZZZZ\n";
     return;
 }
