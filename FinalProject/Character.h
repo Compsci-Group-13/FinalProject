@@ -5,6 +5,7 @@ private:             // Access specifier
     int attack;// Attribute (string variable)
     int stamina;
     int vomit;
+    
 public:
     int getHealth() const;
     int getAttack() const;
