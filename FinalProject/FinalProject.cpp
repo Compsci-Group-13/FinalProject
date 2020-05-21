@@ -49,6 +49,7 @@ int main()
     //seed rand
     //srand(time(0)); moved  to global function so that it is a new seed every time it is called.
 
+    /*
     //Set up Hero
     Hero.setHealth(15);
     Hero.setAttack(5);
@@ -58,6 +59,7 @@ int main()
     Enemy.setHealth(20);
     Enemy.setAttack(2);
     Enemy.setStamina(1);
+    */
 
     //grab random index from events vector
     randEvent = EventPicker(eventVector);

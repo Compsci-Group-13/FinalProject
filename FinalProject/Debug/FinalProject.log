@@ -1,1 +1,4 @@
-﻿  FinalProject.vcxproj -> U:\Documents\GitHub\FinalProject\FinalProject\Debug\FinalProject.exe
+﻿  FinalProject.cpp
+U:\Documents\GitHub\FinalProject\FinalProject\FinalProject.cpp(117,13): warning C4552: '!': result of expression not used
+  LINK : U:\Documents\GitHub\FinalProject\FinalProject\Debug\FinalProject.exe not found or not built by the last incremental link; performing full link
+  FinalProject.vcxproj -> U:\Documents\GitHub\FinalProject\FinalProject\Debug\FinalProject.exe
