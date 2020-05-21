@@ -1,5 +1,5 @@
-//File: OOP2.cpp
-//Names: 
+//File: FinalProject.cpp
+//Names: Chelsea Nava, Juan Lopez, Sedrick Webb, William Becerra
 //Date: 05/15/2020
 //Course: CompSci 1
 //Description: This program will be a game
